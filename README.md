@@ -29,7 +29,7 @@ where I demonstrate my skills in graphical interface design and logic developmen
 
 You can download the compiled version of the application (.exe) from the following link:
 
-🔗 [Download App .EXE](https://drive.google.com/uc?export=download&id=1TiJoppI5LKR5ufQsvCdFJsSR6yS6GwLR)
+🔗 [Download App .EXE](https://drive.google.com/file/d/1GFZHM0AyrETUiE0BWYisvLpCqEkynefu/view?usp=sharing)
 
 
 ---
