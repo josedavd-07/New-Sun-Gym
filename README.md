@@ -1,5 +1,7 @@
 ﻿### ☀️New Sun Gym☀️
 
+🔑 The project password is: 1234
+
 This project is a simple desktop application developed in **C#** using **.NET Framework** and **Windows Forms**,  
 where I demonstrate my skills in graphical interface design and logic development on Windows.
 
