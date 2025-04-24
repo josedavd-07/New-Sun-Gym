@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Text.RegularExpressions;
+using System.Drawing.Text;
 
 
 namespace Gimmnasio
@@ -17,6 +18,25 @@ namespace Gimmnasio
         public Data()
         {
             InitializeComponent();
+
+            // Centrar la pantalla en el centro
+            this.StartPosition = FormStartPosition.CenterScreen;
+
+
+            //No permitir expandir pantalla desde los bordes
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;  //No permitir expandir pantalla desde el icono expandir
+
+
+            //Crear nueva coleccion de fuentes y cargarlas
+            PrivateFontCollection pfc = new PrivateFontCollection();
+            pfc.AddFontFile("fonts/gaban.ttf"); // Ruta al archivo de fuente
+
+            // Crear un objeto Font usando la fuente cargada
+            Font customFont = new Font(pfc.Families[0], 37, FontStyle.Italic); // Cambia el tamaño y estilo según sea necesario
+
+            // Asignar la fuente al Label
+            GymName.Font = customFont;
         }
 
         private void Datos_Load(object sender, EventArgs e)
@@ -47,9 +67,9 @@ namespace Gimmnasio
                 MessageBox.Show("Please enter your stratum");
                 TextBoxStratum.Focus();
             }
-            else if (OptionGenderMale.Checked == false && OptionGenderFemale.Checked == false)
+            else if (radioButtonMale.Checked == false && radioButtonFemale.Checked == false)
             {
-                MessageBox.Show("Please your gender");
+                MessageBox.Show("Please select your gender");
             }
             else
             {
@@ -64,7 +84,7 @@ namespace Gimmnasio
                 user.salary = float.TryParse(TextBoxSalary.Text, out float salary) ? salary : 0;
                 user.stratum  = int.TryParse(TextBoxStratum.Text, out int stratum) ? stratum : 0;
 
-                user.gender = OptionGenderMale.Checked ? "Male" : "Female";
+                user.selectedGender = radioButtonMale.Checked ? "Male" : "Female";
 
                 //show data in the labels and instantiate the form report
 
@@ -74,7 +94,7 @@ namespace Gimmnasio
                 report.Label_Identification.Text = user.identification.ToString();
                 report.LabelSalary.Text = user.salary.ToString();
                 report.LabelStratum.Text = user.stratum.ToString();
-                report.LabelGender.Text = user.gender;
+                report.LabelGender.Text = user.selectedGender;
                 report.LabelPayment.Text = user.Calculations().ToString();
 
                 this.Hide();
@@ -146,7 +166,19 @@ namespace Gimmnasio
             }
         }
 
-        
-        
+        private void GroupBoxGender_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
