@@ -15,7 +15,7 @@ namespace Gimmnasio
 
         public int stratum { get; set; }
 
-        public string gender { get; set; }
+        public string selectedGender { get; set; }
 
         public float normalPayment;
 
@@ -58,7 +58,7 @@ namespace Gimmnasio
             }
 
             //gender discount
-            if (gender.Equals("Female"))
+            if (selectedGender.Equals("Female"))
             {
                 discount += 5;
             }
