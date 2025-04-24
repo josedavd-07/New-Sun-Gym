@@ -1,9 +1,11 @@
-﻿### ☀️New Sun Gym☀️
+﻿### GymHub Version 1.0.0.1
 
-🔑 The project password is: 1234
+- 👤 The project user is: admin 
+
+- 🔑 The project password is: 1234
 
 This project is a simple desktop application developed in **C#** using **.NET Framework** and **Windows Forms**,  
-where I demonstrate my skills in graphical interface design and logic development on Windows.
+where demonstrate our skills in graphical interface design and logic development in Windows.
 
 ## ✨ Technologies Used
 
@@ -17,7 +19,7 @@ where I demonstrate my skills in graphical interface design and logic developmen
 
 | 🖼️ Login Screen | 🖼️ User Registration | 🖼️ Main Interface |
 |------------------|------------------------|---------------------|
-| [![Login](./Data/Login.jpg)](./Data/Login.jpg) | [![Register](./Data/CalculatePayment.jpg)](./Data/CalculatePayment.jpg) | [![Main Interface](./Data/ReportPayment.jpg)](./Data/ReportPayment.jpg) |
+| [![Login](./Data/cap_1_gymhub.png)](./Data/cap_1_gymhub.png) | [![Register](./Data/cap_2_gymhub.png)](./Data/cap_2_gymhub.png) | [![Main Interface](./Data/cap_3_gymhub.png)](./Data/cap_3_gymhub.png) |
 
 - **Login:** Clean and functional authentication screen.  
 - **User Registration:** Clear and validated form for new user creation.  
@@ -25,11 +27,11 @@ where I demonstrate my skills in graphical interface design and logic developmen
 
 ---
 
-## 📦 Download Executable
+## 📦 Download Installer
 
-You can download the compiled version of the application (.exe) from the following link:
+You can download the installer version of the GymHub from the following link:
 
-🔗 [Download App .EXE](https://drive.google.com/file/d/1GFZHM0AyrETUiE0BWYisvLpCqEkynefu/view?usp=sharing)
+🔗 [Download Installer ](https://www.mediafire.com/file/by2m993l3l27606/GymHub_installer.zip/file)
 
 
 ---
@@ -47,17 +49,14 @@ You can download the compiled version of the application (.exe) from the followi
 
 ### 🧠 Motivation
 
-This project was developed to demonstrate my skills in desktop software development using C# and Windows Forms, with a focus on functionality, clean design, and clear logic.
+This project was developed to demonstrate our skills in graphical interface design and logic development in Windows Forms with C#, with a focus on functionality, clean design, and clear logic.
 
 ---
 
-### 🙌 Author
+### 🙌 Colaborators
 
-- 👨‍💻 Jose David Carranza Angarita  
-- 🎮 Game Programmer & Software Developer  
-- 📧 ing.josedavidcarranzaangarita@gmail.com  
-- 🌐 [Portfolio](https://jose-david-carranza-unity-developer.netlify.app/)
-
+- 👨‍💻 Jose David Carranza Angarita |🎮 Game Programmer & Software Developer | 📧 ing.josedavidcarranzaangarita@gmail.com | https://github.com/josedavd-07
+- 👨‍💻 Joel Anaya Galván | 📱 Android App Developer & Software Developer | https://github.com/Joelanaya
 ---
 
 ### 📜 License
